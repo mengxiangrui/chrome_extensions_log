@@ -1,0 +1,24 @@
+{
+    "author": "夙言",
+    "background": {
+       "scripts": [ "js/background.js" ]
+    },
+    "browser_action": {
+       "default_icon": {
+          "19": "img/log.png",
+          "38": "img/log.png"
+       },
+       "default_popup": "popup.html",
+       "default_title": "打点助手"
+    },
+    "description": "大点助手",
+    "icons": {
+       "128": "img/log.png"
+    },
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtg2wDNGCE39pvwT9qMoojStFNIxPkNR4LVvPuajzL7YhX60CZrhUK0V+BfJEA6oVwU57oKOyh9TNwz5ALWppz/jMbXkJRCH7aeodfA/LjGi5bdJatNCcIZ/aS9icPiVG9LHfvDTsMkyeXOa42lvGglJwcColOWwyV/5E2SodLZYOdkV2m7TcylGUdBm3zUwWX7Y/K1ncW5Tt2bBHk0mYbvAl+Pck52vDhaECBpQcm4dkKLC6LN4xTQuow4Qg3FSF7ftrd/WoOqHHwcOPqLJmjP0/7wU1/e+1TP/xsB4XN9Cd8Tngs4wloiPwf3Gn7xyVUUnMKr0YMTVwmLfNOCDV6wIDAQAB",
+    "manifest_version": 2,
+    "name": "打点助手",
+    "permissions": [ "webRequest", "webRequestBlocking", "*://*.taobao.com/", "*://wgo.mmstat.com/*", "notifications" ],
+    "version": "1.0"
+ }
+ 
